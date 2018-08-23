@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BBC135D2-B7D9-4CEF-9FC7-B1D1F0D6C896</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="20 4.91427956 19.0857635 4 12 11.0857204 4.91427956 4 4 4.91427956 11.0857204 12 4 19.0857635 4.91427956 20 12 12.9142796 19.0857635 20 20 19.0857635 12.9142796 12"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pictograms/Close-M">
+            <g id="Закрыть">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <path stroke="#FFFFFF" stroke-width="0.7" d="M13.4092536,12.0000008 L20.494974,19.0857643 L19.0857643,20.494974 L12.0000008,13.4092536 L4.91428539,20.4949689 L3.50502017,19.0857701 L10.5907464,12.0000008 L3.50502525,4.91427956 L4.91427956,3.50502525 L12.0000008,10.5907464 L19.0857701,3.50502017 L20.4949689,4.91428539 L13.4092536,12.0000008 Z"></path>
+                <g id="Oval" mask="url(#mask-2)" fill="#FFFFFF">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

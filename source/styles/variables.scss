@@ -1,0 +1,85 @@
+// глобальные стандартные цвета
+$page-color: #ffffff;
+$black-full: #000000;
+
+// ПРОЕКТНЫЕ ЦВЕТА
+
+// цвет основного текста
+$black-main: #212121;
+
+// синие фоны, кнопки, тени
+$blue-main: #4c4cfc;
+$blue-button-hover: #3e3ed8;
+$blue-button-pressed: #3f3fc8;
+$blue-menu-toggle: #3e3ee9;
+$blue-shadow: transparentize(#4b4cff, 0.63);
+$blue-dark-secondary: #4141e0;
+$blue-spot: #6e6efc;
+$blue-spot-header: #5858f6;
+
+$card-border-color: #d8d8d8;
+$card-shadow: 0 0 40px 0 rgba(161, 161, 161, 0.28);
+$card-hover-shadow: 0 0 40px 14px rgba(140, 140, 140, 0.2);
+$card-result-hover: #f1f1f1;
+
+// периодически встречается в заголовках
+$charcoal: rgba(33, 33, 33, 0.9);
+
+$meetup-card-soon: #e9e9fe;
+$meetup-card-close: #f8f8f8;
+$meetup-text-close: #b9b9b9;
+
+$meetup-card-hover: #fcfcfc;
+$meetup-soon-hover: #f6f6fe;
+
+$meetup-button-hover: #3e3ed8;
+$meetup-button-pressed: #3f3fc8;
+
+$share-button-hover: #3e3ed8;
+$share-button-pressed: #3f3fc8;
+
+$modal-search-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.32);
+$overlay-color: rgba(140, 154, 172, 0.4);
+
+$chip-bg-hover-color: #f5f5f5;
+$chip-border-color: #d8d8d8;
+
+$dashed-color: #757575;
+
+$gray-main: #80879f;
+
+// фиолетовые кнопки, тени
+$violet-main: #c04cfc;
+$violet-button-hover: #a741db;
+$violet-button-pressed: #a823ed;
+$violet-shadow: transparentize(#c04cfc, 0.6);
+
+$white-main: #ffffff;
+
+// ЛОКАЛЬНЫЕ ЦВЕТА
+// оформление кода на главной странице
+$cyan-code: #6ffff0;
+$pink-code: #fe73cd;
+
+// состояние ошибки
+$red-error: #ef2323;
+
+// ПРОЕКТНЫЕ ШИРИНЫ
+// минимальная мобильная ширина
+$width-mobile-small: 320px;
+// макетная мобильная ширина
+$width-mobile: 375px;
+// дополнительная мобильная ширина
+$width-mobile-wide: 560px;
+// минимальная планшетная ширина
+$width-tablet-start: 768px;
+//макетная планшетная ширина
+$width-tablet-layout: 1024px;
+// минимальная десктопная ширина
+$width-desktop-start: 1296px;
+// макетная десктопная ширина
+$width-desktop-hd: 1920px;
+
+// Retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
