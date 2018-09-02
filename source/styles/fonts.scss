@@ -1,42 +1,58 @@
 // Подключение шрифтов
 
-$playfair: 'playfair_displaybold', 'Century Gothic', sans-serif;
+$playfair: "Playfair Display", "Times New Roman", serif;
+$mullerthin: "Muller", "Century Gothic", sans-serif;
+$raleway: "Raleway", "Century Cothic", sans-serif;
 
 @font-face {
-  font-family: 'playfair_displaybold';
-  src: url('playfairdisplay-bold-webfont.woff2') format('woff2'),
-  url('playfairdisplay-bold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Muller';
+  src: local('Muller Thin'), local('MullerThin'),
+  url('../fonts/MullerThin.woff2') format('woff2'),
+  url('../fonts/MullerThin.woff') format('woff');
+  font-weight: 100;
   font-style: normal;
-
 }
-//
-//@font-face {
-//  font-family: 'GraphikLCG';
-//  src:
-//    local('GraphikLCG-Medium'),
-//    url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
-//    url('../fonts/GraphikLCG-Medium.woff') format('woff');
-//  font-weight: 500;
-//  font-style: normal;
-//}
-//
-//@font-face {
-//  font-family: 'GraphikLCG';
-//  src:
-//    local('GraphikLCG-Semibold'),
-//    url('../fonts/GraphikLCG-Semibold.woff2') format('woff2'),
-//    url('../fonts/GraphikLCG-Semibold.woff') format('woff');
-//  font-weight: 600;
-//  font-style: normal;
-//}
-//
-//@font-face {
-//  font-family: 'GraphikLCG';
-//  src:
-//    local('GraphikLCG-Bold'),
-//    url('../fonts/GraphikLCG-Bold.woff2') format('woff2'),
-//    url('../fonts/GraphikLCG-Bold.woff') format('woff');
-//  font-weight: 700;
-//  font-style: normal;
-//}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+  url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+  url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Bold'), local('Raleway-Bold'),
+  url('../fonts/Raleway-Bold.woff2') format('woff2'),
+  url('../fonts/Raleway-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+  url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+  url('../fonts/Raleway-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Light'), local('Raleway-Light'),
+  url('../fonts/Raleway-Light.woff2') format('woff2'),
+  url('../fonts/Raleway-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Regular'), local('Raleway-Regular'),
+  url('../fonts/Raleway-Regular.woff2') format('woff2'),
+  url('../fonts/Raleway-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
